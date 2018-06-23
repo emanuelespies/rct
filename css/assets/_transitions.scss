@@ -1,6 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) 
-{
+@media (max-width: 600px) {
   body  {
     background: $night-mode;
     color: $night-mode-text;
@@ -10,20 +9,111 @@
    
    article {
        background: $night-mode-bg;
+       color: $night-mode-text;
+       -webkit-transition: background 2s;
+       transition: background 2s;
+   }
+}
+
+/* Small devices (phones, 601px and up) */
+@media (min-width: 601px) {
+  body  {
+    background: $pink;
+    color: $pink-text;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+   }
+   
+   article {
+       background: $pink-bg;
+       color: $pink-text;
+       -webkit-transition: background 2s;
+       transition: background 2s;
+   }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body  {
+    background: $orange;
+    color: $orange-text;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+   }
+   
+   article {
+       background: $orange-bg;
+       color: $orange-text;
        -webkit-transition: background 2s;
        transition: background 2s;
    }
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {} 
-
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {} 
+@media only screen and (min-width: 992px) {
+  body  {
+    background: $yellow;
+    color: $yellow-text;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+   }
+   
+   article {
+       background: $yellow-bg;
+       color: $yellow-text;
+       -webkit-transition: background 2s;
+       transition: background 2s;
+   }
+} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  body  {
+    background: $green;
+    color: $green-text;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+   }
+   
+   article {
+       background: $green-bg;
+       color: $green-text;
+       -webkit-transition: background 2s;
+       transition: background 2s;
+   }
+}
+
+/* Super Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+  body  {
+    background: $purple;
+    color: $purple-text;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+   }
+   
+   article {
+       background: $purple-bg;
+       color: $purple-text;
+       -webkit-transition: background 2s;
+       transition: background 2s;
+   }
+}
+
+/* 4k devices (large laptops and desktops, 1900px and up) */
+@media only screen and (min-width: 1900px) {
+  body  {
+    background: $blue;
+    color: $blue-text;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+   }
+   
+   article {
+       background: $blue-bg;
+       color: $blue-text;
+       -webkit-transition: background 2s;
+       transition: background 2s;
+   }
+}

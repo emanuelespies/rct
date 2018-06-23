@@ -1,9 +1,48 @@
-$pink: #ff2266;
+// -- pink
+$pink: #ff0266;
 $pink-text: #000;
 $pink-bg: #fff;
+$pink-highlight: #FF5C93;
+$pink-link: #C5003C;
 
-$red: #f00;
+// -- yellow
+$yellow: #FFB300;
+$yellow-text: #000;
+$yellow-bg: #fff;
+$yellow-hightlight: #FFE54C;
+$yellow-link: #C68400;
 
-$night-mode: #424242;
+// -- green
+$green: #00695C;
+$green-text: #000;
+$green-bg: #fff;
+$green-hightlight: #439889;
+$green-link: #003D33;
+
+// -- purple
+$purple: #1A237E;
+$purple-text: #000;
+$purple-bg: #fff;
+$purple-hightlight: #534BAE;
+$purple-link: #000051;
+
+// -- orange
+$orange: #ff5722;
+$orange-text: #000;
+$orange-bg: #fff;
+$orange-hightlight: #ff8a50;
+$orange-link: #c41c00;
+
+// -- blue
+$blue: #039be5;
+$blue-text: #000;
+$blue-bg: #fff;
+$blue-hightlight: #63ccff;
+$blue-link: #006db3;
+
+
+// -- default night mode
+$night-mode: #263238;
 $night-mode-text: #fff;
-$night-mode-bg: #ddd;
+$night-mode-bg: #37474F;
+$night-mode-highlight: #4F5B62;

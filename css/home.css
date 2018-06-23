@@ -1,37 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
   body {
-    background: #424242;
+    background: #263238;
     color: #fff;
     -webkit-trasition: background 2s, color 1s;
     transition: background 2s, color 1s;
   }
   article {
-    background: #ddd;
+    background: #37474F;
+    color: #fff;
     -webkit-transition: background 2s;
     transition: background 2s;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (phones, 601px and up) */
+@media (min-width: 601px) {
+  body {
+    background: #ff0266;
+    color: #000;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+  }
+  article {
+    background: #fff;
+    color: #000;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background: #ff5722;
+    color: #000;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+  }
+  article {
+    background: #fff;
+    color: #000;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background: #FFB300;
+    color: #000;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+  }
+  article {
+    background: #fff;
+    color: #000;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background: #00695C;
+    color: #000;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+  }
+  article {
+    background: #fff;
+    color: #000;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+}
+
+/* Super Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+  body {
+    background: #1A237E;
+    color: #000;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+  }
+  article {
+    background: #fff;
+    color: #000;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+}
+
+/* 4k devices (large laptops and desktops, 1900px and up) */
+@media only screen and (min-width: 1900px) {
+  body {
+    background: #039be5;
+    color: #000;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+  }
+  article {
+    background: #fff;
+    color: #000;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+}
+
 html,
 body {
+  font: normal 16px 'Consolas', Arial, Helvetica, sans-serif;
+  height: 100%;
+  min-height: 100%;
+}
+
+.wrapper {
   height: 100%;
 }
 
-body {
-  text-align: center;
+article {
+  height: 100%;
+  margin: 40px;
+  position: relative;
 }
 
-article {
-  max-width: 740px;
-  max-height: 540px;
-  margin: -70px auto;
-  padding: 30px;
-  position: relative;
-  top: 50%;
+p {
+  padding: 32px;
+}
+
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  article {
+    height: auto;
+    max-width: 740px;
+    max-height: 540px;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=home.css.map */

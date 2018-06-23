@@ -1,20 +1,25 @@
+@import 'assets/_reset';
 @import 'assets/_colors';
 @import 'assets/_transitions';
 
 html,
 body {
+    font: normal 16px 'Consolas', Arial, Helvetica, sans-serif;
     height: 100%;
+    min-height: 100%;
 }
 
-body {
-    text-align: center;
+.wrapper {
+    height: 100%; 
 }
-
 article {
-    max-width: 740px;
-    max-height: 540px;
-    margin: -70px auto;
-    padding: 30px;
-    position: relative;
-    top: 50%;
+   height: 100%;
+   margin: 40px;
+   position: relative;
 }
+
+p {
+    padding: 32px;
+}
+
+@import 'assets/_responsive';
