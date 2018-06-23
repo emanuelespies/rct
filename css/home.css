@@ -1,0 +1,37 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  body {
+    background: #424242;
+    color: #fff;
+    -webkit-trasition: background 2s, color 1s;
+    transition: background 2s, color 1s;
+  }
+  article {
+    background: #ddd;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+article {
+  max-width: 740px;
+  max-height: 540px;
+  margin: -70px auto;
+  padding: 30px;
+  position: relative;
+  top: 50%;
+}
+/*# sourceMappingURL=home.css.map */
